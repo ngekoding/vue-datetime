@@ -56,17 +56,17 @@ export default {
       default: 1
     },
     disabledDates: {
-      type   : Array,
-      default() {
+      type: Array,
+      default () {
         return []
       }
     },
-    disabledDays : {
-      type   : Array,
-      default() {
+    disabledDays: {
+      type: Array,
+      default () {
         return []
       }
-    },
+    }
   },
 
   data () {
@@ -114,7 +114,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .vdatetime-calendar__navigation,
 .vdatetime-calendar__navigation * {
   box-sizing: border-box;

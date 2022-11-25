@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import {hours, minutes, pad, timeComponentIsDisabled, timeHoursComponentIsDisabled, timeMinutesComponentIsDisabled} from './util'
+import { hours, minutes, pad, timeHoursComponentIsDisabled, timeMinutesComponentIsDisabled } from './util'
 
 export default {
   props: {
@@ -48,7 +48,7 @@ export default {
     },
     disabledTimes: {
       type: Array,
-      default() {
+      default () {
         return []
       }
     }
@@ -144,7 +144,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .vdatetime-time-picker {
   box-sizing: border-box;
 

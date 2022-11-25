@@ -114,20 +114,20 @@ export default {
       default: null
     },
     disabledDates: {
-      type   : Array,
-      default() {
+      type: Array,
+      default () {
         return []
       }
     },
-    disabledDays : {
-      type   : Array,
-      default() {
+    disabledDays: {
+      type: Array,
+      default () {
         return []
       }
     },
     disabledTimes: {
       type: Array,
-      default() {
+      default () {
         return []
       }
     },
@@ -295,7 +295,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .vdatetime-popup {
   box-sizing: border-box;
   z-index: 1000;
